@@ -20,6 +20,18 @@
             // one object
             // وبكدا هيحصل تغيير في المتغير الاصلي 
             #endregion
+            #region Theoretical Questions Q2 
+            //a) Identify at least three problems with this design from an encapsulation perspective.
+            //==============solution===============
+            //1 لازم البيانات  اللي جوا ال struct تكون من نوع private.عشان امنع ان اي حد يدخل ويعدل عليها من برا
+            //2 مفيش تحكم بالقيم الي داخله 
+            //=======================================================
+            //  b) How can private fields and public properties improve this design?
+           //======================الحل =================
+            //private =(لمنع دخول اي حد من برا الكلاس يدخل يعدل علي الfields)
+
+            //public properties=(بتديني امكانيه اني اتجكم في القيم الي داخله لي )
+            #endregion
         }
     }
 }
