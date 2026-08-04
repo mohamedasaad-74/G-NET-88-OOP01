@@ -1,4 +1,5 @@
 ﻿using Assignment5.struct1;
+using Assignment5.struct2;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Assignment5
@@ -46,8 +47,13 @@ namespace Assignment5
             //address2.Street = "lm";
             //Console.WriteLine($"Original Address {address1.GetFullAddress()}");
             //Console.WriteLine($"After change {address2.GetFullAddress()}");
-            
 
+
+            #endregion
+            #region Shipment Q4
+            //Shipment s1 = new Shipment("OOP");
+            //s1.PrintShipment();
+            //Console.WriteLine(s1);
             #endregion
         }
     }
