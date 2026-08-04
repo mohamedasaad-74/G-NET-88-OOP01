@@ -1,5 +1,6 @@
 ﻿using Assignment5.struct1;
 using Assignment5.struct2;
+using Assignment5.struct3;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Assignment5
@@ -55,6 +56,8 @@ namespace Assignment5
             //s1.PrintShipment();
             //Console.WriteLine(s1);
             #endregion
+         
+
         }
     }
 }
